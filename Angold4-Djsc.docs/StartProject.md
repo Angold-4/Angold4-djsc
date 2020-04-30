@@ -603,7 +603,7 @@ Block 7
         """可以搜索setup()和settings.configure()查看"""
         
 ```
-```
+```python
         """接下来就是渲染模版的逻辑"""
         template_dir = self.handle_template(options['template'],
                                             base_subdir)
@@ -884,7 +884,7 @@ def setup(set_prefix=True):
 '''
 '''我们主要来看之后执行的函数 apps.populate(settings.INSTALLED_APPS)'''
 ```
-```
+```python
 # django/apps/registry.py class Apps method populate
 
     def populate(self, installed_apps=None):
@@ -973,8 +973,8 @@ def setup(set_prefix=True):
 ```
 * **autocomplete<br>**
 **这个函数是自动补全函数 触发条件是tab**
-```
-"""python
+```python
+"""
 接下来看下一个函数 autocomplete() 这个函数也是Linux系统中command应用自动补全的通用逻辑
 """
 # django/core/management/__init__.py class ManagementUtility method autocomplete()
