@@ -7,7 +7,7 @@ django-admin startproject project1
 大概过了一秒 会得到一个树状结构 每个部分用于配置django不同的设置：
 project1>
     manage.py
-    project1>
+ '   project1>
         __init__.py
         asgi.py
         settings.py
@@ -1090,3 +1090,4 @@ Path20 =  home/develop/code
 * **django-admin verbosity<br>**
 **[django docs](https://docs.djangoproject.com/en/3.0/ref/django-admin/#cmdoption-verbosity)**
 ![image](http://note.youdao.com/yws/res/22947/WEBRESOURCEfe361fc997529ed50f529d688f6faddf)
+
